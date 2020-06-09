@@ -1,6 +1,6 @@
 # Svelte Redux-Toolkit
 
-This is a project template for [Svelte](https://svelte.dev) apps.
+This is a project template for [Svelte](https://svelte.dev) apps, with boilerplate code for integrating [Redux-Toolkit](https://redux-toolkit.js.org/).
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
@@ -32,7 +32,7 @@ By default, the server will only respond to requests from localhost. To allow co
 
 ## Learn more about Redux-Toolkit
 
-This template comes with a `slices` folder, and a very basic Todo set up to showcase the redux functionality. [Learn more about Redux-Toolkit](https://redux-toolkit.js.org/) and install the [Redux Dev Tools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en) for the best experience.
+This template comes with a `slices` folder, a `store.js` file, and a very basic Todo set-up to showcase the redux functionality. [Learn more about Redux-Toolkit](https://redux-toolkit.js.org/) and install the [Redux Dev Tools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en) for the best experience.
 
 ## Building and running in production mode
 
