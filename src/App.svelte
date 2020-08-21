@@ -5,16 +5,17 @@
     removeTodo,
     fetchRandomTodo
   } from "./slices/todoSlice";
-  import store from "./store";
-  let todoList = todoSelectors.todos(store.getState());
-  let todoListLoading = todoSelectors.loading(store.getState());
+  import { store, useSelector } from "./store";
 
-  $: {
-    store.subscribe(() => {
-      todoList = todoSelectors.todos(store.getState());
-      todoListLoading = todoSelectors.loading(store.getState());
-    });
-  }
+  $: todoList = useSelector(
+    todoSelectors.todos,
+    newList => (todoList = newList)
+  );
+
+  $: todoListLoading = useSelector(
+    todoSelectors.loading,
+    newLoading => (todoListLoading = newLoading)
+  );
 
   let newTodo;
 </script>
