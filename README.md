@@ -2,6 +2,10 @@
 
 This is a project template for [Svelte](https://svelte.dev) apps, with boilerplate code for integrating [Redux-Toolkit](https://redux-toolkit.js.org/).
 
+The project is a very basic To-Do app that utilizes a redux store (with Redux-Devtools enabled).
+
+I'm well aware that Svelte has pretty awesome built-in stores & reactivity, but for those that are comfortable with Redux or wish to utilize Redux-Devtools, this is a good (albeit barebones) template to start out with!
+
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
